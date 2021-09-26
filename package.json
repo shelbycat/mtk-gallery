@@ -4,12 +4,10 @@
   "description": "MTK's Art Gallery",
   "main": "none",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "start": "cd workspaces/basic && npm start"
   },
   "private": true,
-  "workspaces": [
-    "workspaces/basic"
-  ],
   "keywords": [
     "SpookyMTK",
     "MTK",
